@@ -1,6 +1,105 @@
-#navbar {
-  position: fixed;
-  top:10px;
-  left:50%;
-  margin-left:-254px;
+#Title {
+  text-align: center;
+  font-family: Myriad Pro;
+}
+
+body {
+  background-color: #f9f2ec;
+}
+
+#divzero {
+  background-color: #99826b;
+  border-radius: 1em;
+}
+
+ul.bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 1em 3em;
+    border: 1px solid #e7e7e7;
+    height: 80px;
+}
+
+active.bar{
+    background-color: #4CAF50;
+}
+
+a.bar {
+  color: white;
+}
+
+li.bar {
+  width: 7em;
+  font-size: 1.4em;
+}
+
+
+
+
+#Author {
+  color: black;
+  font-family: "Myriad Pro";
+  text-align: center;
+  text-shadow: 2px 2px;
+}
+#Title {
+  color: blue;
+}
+
+#quote {
+  font-family: cursive;
+  font-size: 2em;
+  text-align: center;
+}
+
+.block2 {
+  background-size: 10px
+  height: 50px;
+}
+
+#nav {
+  height: 50px;
+}
+
+
+.about {
+  text-align: center;
+  color: green;
+}
+
+.storytitles {
+  text-align: center;
+  font-family: Myriad Pro;
+}
+
+table {
+    width: 800px;
+    text-align: center;
+    list-style-position: outside;
+    margin-left:  90px;
+  }
+
+  ul li {
+margin: 35px
+  }
+
+li {
+  font-family: Myriad Pro;
+  font-size: 1em;
+  float:left;
+  height:50px;
+  margin:20 10px 10px 0;
+}
+
+
+tr:nth-child(even) {
+    margin-right:50;
+  background-color: #f2f2f2;
+}
+
+a:hover {
+  color: hotpink;
 }
